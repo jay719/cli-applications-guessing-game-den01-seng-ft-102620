@@ -3,7 +3,7 @@ def run_guessing_game
 random= rand(6) + 1
 input= gets.chomp
 
-if random = input
+if random input
   puts "You guessed the correct number!"
 elsif 
   puts "Sorry! The computer guessed #{random}."
