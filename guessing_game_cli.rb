@@ -2,12 +2,13 @@
 def run_guessing_game
 random= rand(6) + 1
 input= gets.chomp
-if input =="exit"
-  puts "Goodbye!"
-elsif random==input
+
+if random == input
   puts"You guessed the correct number!"
-else 
+elseif 
   puts "Sorry! The computer guessed #{random}."
+  else input =="exit"
+  puts "Goodbye!"
 end
 end
   
