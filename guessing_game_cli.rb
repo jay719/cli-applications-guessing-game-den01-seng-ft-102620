@@ -7,7 +7,7 @@ if input =="exit"
 elsif input==random
   puts"You guessed the correct number!"
 else 
-  "Sorry! The computer guessed #{random}."
+  puts "Sorry! The computer guessed #{random}."
 end
 end
   
