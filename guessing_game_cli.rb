@@ -5,7 +5,7 @@ input= gets.chomp
 
 if random == input
   puts "You guessed the correct number!"
-elsif 
+elsif input!=random
   puts "Sorry! The computer guessed #{random}."
   else input =="exit"
   puts "Goodbye!"
