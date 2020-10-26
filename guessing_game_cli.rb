@@ -5,6 +5,8 @@ input= gets.chomp
 
 if random input
   puts "You guessed the correct number!"
+  
+  #wrong
 elsif 
   puts "Sorry! The computer guessed #{random}."
   else input =="exit"
